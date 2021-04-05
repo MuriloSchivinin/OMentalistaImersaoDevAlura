@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background: black;
+}
+
+#area {
+    background-image: linear-gradient(45deg, #79cec6, #a8b154);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    border-radius: 30px 5px;
+    box-shadow: 0 0 5em rgb(122, 122, 122);
+}
+
+#topo {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 60px;
+    color: black;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+#conteudo {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 420px;
+    text-align: center;
+}
+
+#conteudo h4 {
+    font-size: 30px;
+    font-family: 'New Tegomin', serif;
+    margin-bottom:20px;
+}
+
+#conteudo input {
+    height: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    width: 200px;
+    margin-top: 15px;
+}
+
+#conteudo .btn {
+    margin-top: 15px;
+    width: 90px;
+    background: black;
+    color: white;
+    font-size: 20px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+    
+
+#result {
+    font-family: 'New Tegomin', serif;
+    font-size: 600%;
+    margin-top: 20px
+} 
+
+
+
+#campo, .btn {
+    border: none;
+}
